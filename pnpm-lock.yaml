@@ -236,6 +236,9 @@ importers:
       '@repo/tsconfigs':
         specifier: workspace:*
         version: link:../tsconfigs
+      backlog-js:
+        specifier: 'catalog:'
+        version: 1.0.0
 
   packages/tsconfigs:
     dependencies:
